@@ -18,14 +18,14 @@ body {
 h1 {
     font-family: Lobster, sans-serif;
     letter-spacing: 5px;
-    color: black;
+    color:#033c45;
 
 }
 
 body {
     background-image:url(/assets/images/pexels-life-of-pix-7862.jpg);
     background-size: cover;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
   
 }
 
@@ -33,6 +33,31 @@ body {
     float: left;
     font-size: 350%;
     line-height: 0.85;
-    padding-left: 20px;
-    padding-top: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
+
+/* navigation gallery-book-contact */
+
+#main-navigation  {
+    font-size: 250%;
+    letter-spacing: 5px;
+    
+}
+
+#main-navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 30px;
+    
+}
+
+#main-navigation a {
+    text-decoration: none;
+    color:#033c45;
+    line-height: 0.85;
+
+
+}
+
