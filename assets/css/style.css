@@ -24,7 +24,15 @@ h1 {
 
 body {
     background-image:url(/assets/images/pexels-life-of-pix-7862.jpg);
-    background-repeat: space;
+    background-size: cover;
+   background-repeat: no-repeat;
   
-    
+}
+
+#logo {
+    float: left;
+    font-size: 350%;
+    line-height: 0.85;
+    padding-left: 20px;
+    padding-top: 20px;
 }
