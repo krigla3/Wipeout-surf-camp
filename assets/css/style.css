@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lobster, sans-serif;
+    color:black;
+    background-image:url(/assets/images/pexels-life-of-pix-7862.jpg);
+    background-repeat: space;
+}
+
+/* headings and logo */
+
 h1 {
-    font-family: Arial;
+    font-family: Lobster, sans-serif;
+    letter-spacing: 5px;
+    color: black;
+
+}
+
+body {
+    background-image:url(/assets/images/pexels-life-of-pix-7862.jpg);
+    background-repeat: space;
+  
+    
 }
