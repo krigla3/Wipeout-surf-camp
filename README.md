@@ -11,3 +11,5 @@ I used my newly accuried knowldge of html and css programming languages with fou
 ### Content
 
 The font for the heading page logo was taken from Google fonts https://fonts.google.com/specimen/Lobster?query=lobster#standard-styles
+
+Color picker tool  https://imagecolorpicker.com/ used for selecting the color for the header logo and main navigation links 

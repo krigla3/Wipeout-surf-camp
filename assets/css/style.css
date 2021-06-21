@@ -18,6 +18,7 @@ body {
 h1 {
     font-family: Lobster, sans-serif;
     letter-spacing: 5px;
+    text-transform: uppercase;
     color:#033c45;
 
 }
@@ -58,6 +59,20 @@ body {
     color:#033c45;
     line-height: 0.85;
 
+}
+
+#main-navigation a:hover {
+    color: rgb(233, 120, 14);
+} 
+
+.current-page  > span {
+    font-size: 80%;
+    color: rgb(233, 120, 14);
+    line-height: 0.85;
+    
+
 
 }
+
+
 
