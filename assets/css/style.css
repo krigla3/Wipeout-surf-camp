@@ -76,9 +76,8 @@ body {
 
 #camps {
     margin-top: 300px;
-    height: 150px;
     text-align: center;
-    background-color: brow
+    background-color: brown
     
 
 }
@@ -95,7 +94,7 @@ body {
 }
 
 #first-house {
-    
+    margin-top:-213px;
     height: 100%;
     width: 100%;
     background: url(/assets/images/pexels-kenneth-carpina-2468773.jpg);
@@ -104,25 +103,34 @@ body {
     border: solid 4px;
     border-color: white;
     border-radius: 25px;
-    opacity: 50%;
+    opacity: 0%;
+    transition: 3s;
+    
     
     
 }
 
 #first-house:hover {
     
-    height: 100%;
-    width: 100%;
-    background: url(/assets/images/pexels-kenneth-carpina-2468773.jpg);
-    background-position: center center;
-    background-size: cover;
+   
     opacity: 100%;
-    box-sizing: border-box;
+    z-index: 2;
+    transform: scale(1.2);
+    
 }
 
-#first-house h2 {
-    padding-top: 150px;
+  
+.zec {
+    padding-top: 200px;
+    font-size: 250%;
+   
 }
+
+.link {
+    
+}
+
+
 
 
 
@@ -145,7 +153,7 @@ body {
 }
 
 #second-house {
-    
+    margin-top:-213px;
     height: 100%;
     width: 100%;
     background: url(/assets/images/mohd-elle-oji_NGmBI5o-unsplash.jpg);
@@ -154,31 +162,25 @@ body {
     border: solid 4px;
     border-color: white;
     border-radius: 25px;
-    opacity: 50%;
+    opacity: 0%;
+    transition: 3s;
+    
     
     
 }
 
 #second-house:hover {
     
-    height: 100%;
-    width: 100%;
-    background: url(/assets/images/mohd-elle-oji_NGmBI5o-unsplash.jpg);
-    background-position: center center;
-    background-size: cover;
+   
     opacity: 100%;
-    box-sizing: border-box;
-}
-
-#second-house h2 {
-    padding-top: 150px;
-    opacity: 100%;
-}
-
-
-
+    z-index: 2;
+    transform: scale(1.2);
     
+}
 
+
+
+  
 
 
 
