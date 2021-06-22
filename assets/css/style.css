@@ -7,6 +7,13 @@
 }
 
 body {
+    background-image: url(/assets/images/pexels-life-of-pix-7862.jpg);
+    background-size: cover;
+    
+}
+
+
+body {
     font-family: Lobster, sans-serif;
     color:black;
 }
@@ -21,12 +28,8 @@ h1 {
 
 }
 
-body {
-    background-image:url(/assets/images/pexels-jess-vide-4321799.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   
-}
+
 
 #logo {
     float: left;
@@ -77,7 +80,6 @@ body {
 #camps {
     margin-top: 300px;
     text-align: center;
-    background-color: brown
     
 
 }
@@ -126,9 +128,7 @@ body {
    
 }
 
-.link {
-    
-}
+
 
 
 
