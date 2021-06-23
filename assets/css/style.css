@@ -126,7 +126,7 @@ h1 {
 }
 
 #first-house {
-    margin-top: -213px;
+    margin-top: -250px;
     height: 100%;
     width: 100%;
     background: url(/assets/images/pexels-kenneth-carpina-2468773.jpg);
@@ -136,7 +136,7 @@ h1 {
     border-color: white;
     border-radius: 25px;
     opacity: 0%;
-    transition: 3s;
+    transition: 2s;
     
     
     
@@ -154,10 +154,16 @@ h1 {
   
 .zec {
     padding-top: 150px;
-    font-size: 250%;
+    font-size: 300%;
+    
    
 }
 
+.zec > span {
+    color: white;
+    font-size: 250%;
+    opacity: 50%;
+}
 
 
 
@@ -183,7 +189,7 @@ h1 {
 }
 
 #second-house {
-    margin-top:-213px;
+    margin-top:-250px;
     height: 100%;
     width: 100%;
     background: url(/assets/images/mohd-elle-oji_NGmBI5o-unsplash.jpg);
@@ -193,7 +199,7 @@ h1 {
     border-color: white;
     border-radius: 25px;
     opacity: 0%;
-    transition: 3s;
+    transition: 2s;
     
     
     
