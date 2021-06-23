@@ -7,8 +7,11 @@
 }
 
 body {
-    background-image: url(/assets/images/pexels-life-of-pix-7862.jpg);
+    background: url(/assets/images/pexels-life-of-pix-7862.jpg);
+    height: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     
 }
 
@@ -73,18 +76,45 @@ h1 {
     
 }
 
+/* surf camps intro*/
 
+#intro-sentence {
+    height: 300px;
+    background-color:
+}
+
+#intro-sentence h1 {
+  padding-top: 200px;
+
+}
+ 
 
 /* surf camps */
 
+
+
 #camps {
-    margin-top: 300px;
+ 
     text-align: center;
-    
+    clear: both;
 
 }
+
+#surfhouses  {
+    height: 600px;
+    background-color:
+    padding-top: 50px;
+}
+    
+
+#surfhouses h1 {
+    padding-top: 30px;
+}
+    
+
+
 #left {
-    margin-top: 50px;
+    margin-top: 30px;
     height: 350px;
     float: left;
     width: 40%;
@@ -96,7 +126,7 @@ h1 {
 }
 
 #first-house {
-    margin-top:-213px;
+    margin-top: -213px;
     height: 100%;
     width: 100%;
     background: url(/assets/images/pexels-kenneth-carpina-2468773.jpg);
@@ -123,7 +153,7 @@ h1 {
 
   
 .zec {
-    padding-top: 200px;
+    padding-top: 150px;
     font-size: 250%;
    
 }
@@ -141,11 +171,11 @@ h1 {
 
 
 #right {
-    margin-top: 50px;
+    margin-top: 30px;
     height: 350px;
-    float: left;
+    float: right;
     width: 40%;
-    margin-left: 100px;
+    margin-right: 100px;
  
     
   
