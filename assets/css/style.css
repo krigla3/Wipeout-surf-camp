@@ -68,9 +68,10 @@ h1 {
 
 #main-navigation a:hover {
     color: rgb(233, 120, 14);
+    vertical-align: bottom;
 } 
 
-.current-page  > span {
+.active > span {
     font-size: 80%;
     color: rgb(233, 120, 14);
     line-height: 0.85;
@@ -220,8 +221,8 @@ h1 {
   
 footer {
     
-    height: 100px;
-    background-color: rgba(230,235,231,255);
+    height: 80px;
+    background-color: rgba(224,232,236,255);
     display: block;
     
 }
@@ -232,15 +233,20 @@ footer {
 }
 
 #footer-links > li {
-    display: inline;
+   display: inline;
 }
 
 #footer-links i {
     font-size: 400%;
-    padding: 1% 10% 1% 10%;
-    color: rgb(233, 120, 14);
+    margin: 0.5% 10% 0.5% 10%;
+    color:black;
 
 }
+
+#footer-links i:hover {
+    color: rgb(233, 120, 14);
+}
+    
 
 
 
