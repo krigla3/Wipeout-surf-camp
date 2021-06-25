@@ -24,3 +24,8 @@ Surf house two picture taken from pexels https://www.pexels.com/
 
 paragraph text taken from https://prosurfing.es/?lang=en&gclid=CjwKCAjw8cCGBhB6EiwAgORey7OBKNKKL5Kg-yn4PHDDJiyXmctKM202LXnqR8mhTdzcoF6PjFUgIhoCWIYQAvD_BwE and https://www.surfertoday.com/surfing/the-best-surfing-quotes-of-all-time
 
+Image of house theater taken from https://www.pinterest.ie/pin/618189486344028290/?autologin=true
+
+house bbq taken from https://www.countryliving.com/gardening/garden-ideas/g1435/outdoor-kitchens/
+
+bunkbed blue room taken from https://www.pinterest.com/pin/729372102140587007/

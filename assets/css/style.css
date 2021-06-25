@@ -264,7 +264,7 @@ footer {
   }
 
   #images > img {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     border: solid 4px white;
     box-sizing: border-box;
@@ -290,7 +290,7 @@ footer {
   }
 
   #background-contact {
-    background-image: url("/assets/images/contact.background.jpg.jpg");
+    background-image: url("/assets/images/contact\ background.jpg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -298,3 +298,66 @@ footer {
 
   }
 
+
+
+  /* Corralejo surfhouse page*/
+
+
+  #house-one-description {
+      
+      clear: both;
+      padding-top: 200px;
+  }
+
+  #house-one-description p {
+    font-size: 120%;
+    margin-right: 150px;
+  }
+
+  #house-one-description img {
+
+    height: 350px;
+    width: 40%;
+    float: left;
+
+  }
+
+  #house-one-description p {
+      float: right;
+      width: 50%;
+  } 
+
+  #images-corralejo {
+
+    
+    margin-top: 500px;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+    
+  }
+
+  #images-corralejo > img {
+    margin-top: 20px;
+    width: 100%;
+    border: solid 4px white;
+    box-sizing: border-box;
+
+  }
+
+  #background-corralejo-house {
+    background-color:white;
+    background-size: cover;
+    
+  }
+
+  #services {
+      margin-top: -400px;
+      margin-right: 500px;
+      width: 40%;
+      float: right;
+  }
+
+  #services > p {
+      font-size: 120%;
+  }
