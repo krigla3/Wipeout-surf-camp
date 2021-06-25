@@ -7,7 +7,7 @@
 }
 
 #background {
-    background-image: url("/assets/images/pexels-life-of-pix-7862.jpg");
+    background-image: url("/assets/images/surfer\ on\ a\ wave.jpg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -272,13 +272,29 @@ footer {
   }
 
   #background-gallery {
-    background-color: white;
+    background-color:white;
     background-size: cover;
    
-    
-
-
   }
 
 
+
+  #background-book {
+
+    background-image: url("/assets/images/Book\ background.\ jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1200px;
+
+  }
+
+  #background-contact {
+    background-image: url("/assets/images/contact.background.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1200px;
+
+  }
 
