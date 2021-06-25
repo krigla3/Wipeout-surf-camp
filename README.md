@@ -29,3 +29,6 @@ Image of house theater taken from https://www.pinterest.ie/pin/61818948634402829
 house bbq taken from https://www.countryliving.com/gardening/garden-ideas/g1435/outdoor-kitchens/
 
 bunkbed blue room taken from https://www.pinterest.com/pin/729372102140587007/
+
+
+bedroom 3 jpg taken from https://pixabay.com/photos/bed-bedroom-closet-furniture-lamp-1839184/
