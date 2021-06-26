@@ -6,12 +6,15 @@
     border: none;
 }
 
-#background {
-    background-image: url('../images/surfer-on-a-wave.jpg');
+
+
+body {
+    background: url('../images/surfer-on-a-wave.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 1200px;
+   
 
      
   }
@@ -20,6 +23,11 @@
 body {
     font-family: Lobster, sans-serif;
     color:black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 
 /* headings and logo */
@@ -79,13 +87,9 @@ h1 {
 }
 
 /* surf camps intro*/
-
-#intro-sentence {
-    height: 300px;
-}    
      
 #intro-sentence h1 {
-    padding-top: 250px;
+    padding-top: 11px;
 }    
     
 
@@ -95,23 +99,18 @@ h1 {
 
 
 #camps {
-    height: 700px;
+    
     text-align: center;
     clear: both;
 }
 
-
-#surfhouses  {
-    height: 600px;
-    padding-top: 0px;
-}
-    
-
-#surfhouses h1 {
+#surfhouses {
     padding-top: 100px;
-    font-size: 250%;
+    display: flex;
+    flex-direction: column;
 }
-    
+
+
 
 
 #left {
@@ -179,10 +178,10 @@ h1 {
 
 #right {
     margin-top: 30px;
-    height: 350px;
     float: right;
     width: 40%;
     margin-right: 100px;
+    height: 350px;
  
     
   
@@ -220,10 +219,10 @@ h1 {
 
   
 footer {
-    
+    margin-top: 100px;
     height: 90px;
     background-color: rgba(224,232,236,255);
-    display: block;
+  
     
 }
 
@@ -361,3 +360,24 @@ footer {
   #services > p {
       font-size: 120%;
   }
+
+  main {
+    flex: 1;
+  }
+
+  /* phone size */
+  
+  @media screen and  (min-width: 713px) {
+      #surfhouses {
+          flex-direction: row;
+      }
+
+      #left {
+          width: 40%;
+      }
+
+      #right {
+        width: 40%;
+    }
+  }
+
