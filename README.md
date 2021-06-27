@@ -32,3 +32,6 @@ bunkbed blue room taken from https://www.pinterest.com/pin/729372102140587007/
 
 
 bedroom 3 jpg taken from https://pixabay.com/photos/bed-bedroom-closet-furniture-lamp-1839184/
+
+
+https://codepen.io/Nazarja/pen/bGwvWNz used for the main background responsivnes
