@@ -28,7 +28,7 @@ body {
     flex-direction: column;
   }
   
-}
+
 
 /* headings and logo */
 
@@ -112,8 +112,8 @@ h1 {
 #surfhouses {
     margin-bottom: 24px;
     display: flex;
-    flex-direction: column;
-    justify-content: center
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -123,8 +123,7 @@ h1 {
     margin-top: 30px;
     height: 350px;
     float: left;
-    width: 100%;
-    
+    width: 40%;
     
  
     
@@ -186,9 +185,10 @@ h1 {
 #right {
     margin-top: 30px;
     float: right;
-    width: 100%;
-    
+    width: 40%;
     height: 350px;
+    
+    
  
     
   
@@ -227,7 +227,7 @@ h1 {
   
 footer {
     margin-top: 100px;
-    
+    width: 100%;
     background-color: rgba(224,232,236,255);
   
     
@@ -372,26 +372,12 @@ footer {
     flex: 1;
   }
 
-  /* phone size */
-  
-  @media screen and  (min-width: 713px) {
-      #surfhouses {
-          flex-direction: row;
-      }
-
-      #left {
-          width: 40%;
-      }
-
-      #right {
-        width: 40%;
-    }
-  }
+ 
 
 
   /* tablet size */
 
-  @media screen and  (max-width: 930px) {
+  @media screen and (max-width: 1075px) {
 
     #main-navigation {
         clear: left;
@@ -405,15 +391,135 @@ footer {
        
     #surfhouses {
             flex-direction: column;
+            
         }
   
     #left {
-            width: 100%;
+            width: 80%;
+            margin-left: 70px;
+            
         }
   
     #right {
-          width: 100%;
+          width: 80%;
+          margin-left: 70px;
+          
       }
 
-  }
+      #span-two {
+        display:block;
 
+      }
+    }
+
+  
+ /* phone size */
+
+  @media screen and (max-width: 630px) {
+
+    #main-navigation {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        font-size: 120%;
+        
+    }
+
+ 
+    #logo {
+        margin-left: 25px;   }
+
+       
+    #surfhouses {
+            flex-direction: column;
+            
+        }
+  
+    #left {
+            width: 50%;
+            height: 100px;
+            margin: 0 auto;
+            
+            
+        }
+  
+    #right {
+          width: 50%;
+          height: 100px;
+          margin: 0 auto;
+          
+      }
+
+    #span-one {
+        display:block
+    }
+
+    #surfhouses {
+        flex-direction: column;
+        
+    }
+
+#intro-sentence h1 {
+        margin-top: 70px;
+    }    
+    
+    #footer-links i {
+        font-size: 400%;
+        margin: 0.5% 5% 0.5% 5%;
+    }
+
+    #surfhouses {
+        margin-bottom: 10px;
+        
+      
+        justify-content: center;
+    }
+
+    #first-house {
+        margin-top:-100px;
+    }
+
+    #second-house {
+        margin-top:-100px;
+    }
+
+
+    .zec {
+        padding-top: 50px;
+        font-size: 200%;
+        text-align: center;
+       
+    }
+    
+    .zec > span {
+        color: white;
+        font-size: 100%;
+        opacity: 50%;
+    }
+    
+    #main-navigation li {
+        margin-right: 15px;
+        
+        
+
+      }
+
+    #intro-sentence h1 {
+
+        font-size: 100%;
+    }
+    }   
+
+    @media screen and (max-width: 410px) {
+
+        #logo {
+            
+            font-size: 250%;
+            line-height: 0.85;
+            margin: 5 10 5 10;
+           
+        }
+
+
+
+    }
