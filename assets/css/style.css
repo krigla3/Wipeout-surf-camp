@@ -8,7 +8,7 @@
 
 
 
-body {
+#main-page-background {
     background: url('../images/surfer-on-a-wave.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,7 @@ body {
   }
 
 
-body {
+  #background-contact, #main-page-background  {
     font-family: Lobster, sans-serif;
     color:black;
     min-height: 100vh;
@@ -296,11 +296,11 @@ footer {
   }
 
   #background-contact {
-    background-image: url("/assets/images/contact\ background.jpg.jpg");
+    background: url('../images/uderwater.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 1200px;
 
   }
 
