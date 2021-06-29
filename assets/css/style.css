@@ -317,38 +317,127 @@ footer {
 
 
   #house-one-description {
-      
+      margin-left: 30px;
       clear: both;
       padding-top: 200px;
   }
 
-  #house-one-description p {
-    font-size: 120%;
-    margin-right: 150px;
+  #house-one-description h1 {
+    margin: 20px 30px 20px 30px;
   }
 
-  #house-one-description img {
 
-    height: 350px;
+ 
+  #house-one-description img {
     width: 40%;
     float: left;
+    margin: 20px 30px 20px 30px;
 
   }
 
-  #house-one-description p {
-      float: right;
-      width: 50%;
-  } 
+  .camp-one-info {
+    margin: 20px 300px 20px 30px;
+    float: right;
+    font-size: 150%;
+    width:40%;
+  }
+
+  .camp-one-prices {
+    margin: 20px 300px 50px 30px;
+    float: right;
+    font-size: 150%;
+    width:40%;
+}
+
+.camp-one-services {
+    clear: left;
+    float: left;
+    margin: 10px 30px 20px 30px;
+    font-size: 150%;
+    width:40%;
+}
+
+.camp-one-services h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.camp-one-services li {
+   
+    margin-left: 30px;
+   
+}
+
+.camp-one-services-2 {
+    
+    clear: right;
+    float: right;
+    margin: 10px 300px 20px 10px;
+    font-size: 150%;
+    width:40%;
+}
+
+.camp-one-services-2 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.camp-one-services-2 li {
+   
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1950px) {
+
+
+    .camp-one-info {
+        margin: 20px 300px 20px 30px;
+        clear: left;
+        float: left;
+        font-size: 150%;
+        width:40%;
+    }
+
+    .camp-one-prices {
+        margin: 20px 300px 50px 30px;
+        clear: left;
+        float: left;
+        font-size: 150%;
+        width:40%;
+
+    }
+
+    .camp-one-services-2 {
+    
+        clear: left;
+        float: left;
+        margin: 10px 300px 20px 30px;
+        font-size: 150%;
+        width:40%;
+    }
+
+    #images {
+        column-count: 2;
+    }
+}
+
+
+
+
+
+
+
+
 
   #images-corralejo {
-
-    
+    clear: both;
     margin-top: 500px;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    
   }
+    
+  
 
   #images-corralejo > img {
     margin-top: 20px;
@@ -362,17 +451,6 @@ footer {
     background-color:white;
     background-size: cover;
     
-  }
-
-  #services {
-      margin-top: -400px;
-      margin-right: 500px;
-      width: 40%;
-      float: right;
-  }
-
-  #services > p {
-      font-size: 120%;
   }
 
   main {
@@ -655,6 +733,4 @@ footer {
 #paragraph-section {
     background-color:rgb(135, 206, 235, 0.6);
     border: 3px;
-  
-
 }
