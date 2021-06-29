@@ -20,7 +20,10 @@
   }
 
 
-  #background-contact, #main-page-background  {
+  #background-contact, 
+  #main-page-background, 
+  #background-gallery, 
+  #background-book {
     font-family: Lobster, sans-serif;
     color:black;
     min-height: 100vh;
@@ -56,6 +59,7 @@ h1 {
 #main-navigation  {
     font-size: 250%;
     letter-spacing: 5px;
+    font-family: Lobster, sans-serif;
     
 }
 
@@ -226,7 +230,7 @@ h1 {
 
   
 footer {
-    margin-top: 100px;
+    margin-top: auto;
     width: 100%;
     background-color: rgba(224,232,236,255);
   
@@ -287,7 +291,7 @@ footer {
 
   #background-book {
 
-    background-image: url("/assets/images/Book\ background.\ jpg.jpg");
+    background-image: url("/assets/images/surfer-on-a-wave-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -379,6 +383,7 @@ footer {
 
   @media screen and (max-width: 1075px) {
 
+
     #main-navigation {
         clear: left;
         float: left;
@@ -415,7 +420,7 @@ footer {
   
  /* phone size */
 
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 650px) {
 
     #main-navigation {
         clear: left;
@@ -516,10 +521,102 @@ footer {
             
             font-size: 250%;
             line-height: 0.85;
-            margin: 5 10 5 10;
+            margin: 0 10 0 10;
+            
            
         }
 
 
+        #main-navigation {
+            clear: left;
+            float: left;
+            margin-left: 20px;
+            font-size: 100%;
+            flex-direction: row;
+            
+            
+        }
 
+        .form-section {
+            margin-top: 150px;
+            clear: left;
+            height: 500px;
+        }
+
+        .signup-form > h2 {
+            margin-top: 10px;
+        }
+
+
+        .signup-form {
+            
+            margin: 0 10px 0 10px;
     }
+}
+
+
+
+   /* Form */
+
+
+   .form-section {
+    margin-top: 200px;
+    clear: left;
+    height: 500px;
+}
+
+   .signup-form {
+    margin: 0 auto;
+    color:white;
+    max-width: 400px;
+    border-radius: 25px;
+    
+}
+
+.signup-form > h2 {
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin:5px 0 20px 0;
+    border: 3px solid #fafafa;
+    border-radius: 25px;
+    
+}
+
+.text-input:hover {
+    border-color:rgb(233, 120, 14);
+    
+}
+
+.join-button  {
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 25px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:black;
+    color: #fafafa;
+    display:block;
+    
+}
+
+.join-button:hover {
+    background-color:rgb(233, 120, 14);
+    color: white;
+}
+
+.camp-labels label {
+    font-size: 150%;
+    margin-left: 60px;
+
+}
+
