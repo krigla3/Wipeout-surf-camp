@@ -620,3 +620,19 @@ footer {
 
 }
 
+
+/* contact page */
+
+#our-story h1 {
+
+    margin-top: 200px;
+    font-size: 300%;
+    text-align: center;
+
+}
+
+#our-story p { 
+    margin-top: 50px;
+    font-size: 150%;
+    text-align: center;
+}
