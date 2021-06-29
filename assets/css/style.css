@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
 
 * {
     margin: 0;
@@ -35,16 +37,6 @@
 
 /* headings and logo */
 
-h1 {
-    font-family: Lobster, sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color:#033c45;
-
-}
-
-  
-
 
 #logo {
     float: left;
@@ -52,6 +44,11 @@ h1 {
     line-height: 0.85;
     margin-left: 60px;
     margin-top: 30px;
+    font-family: Lobster, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:#033c45;
+
 }
 
 /* navigation gallery-book-contact */
@@ -92,12 +89,18 @@ h1 {
 
 /* surf camps intro*/
      
-#intro-sentence h1 {
+#intro-sentence {
+    font-family: Lobster, sans-serif;
     margin-top: 150px;
+    font-size: 200%;
+    color:#033c45;
+    
 }    
 
 #intro-sentence h2 {
     padding-top: 101px;
+    color:black;
+    font-size: 140%;
 }    
     
     
@@ -570,13 +573,16 @@ footer {
     color:white;
     max-width: 400px;
     border-radius: 25px;
+    padding: 0 20px 0 20px;
     
 }
 
 .signup-form > h2 {
+    font-size: 200%;
     color:white;
     margin-bottom: 20px;
     text-align: center;
+    
     
 }
 
@@ -614,6 +620,10 @@ footer {
     color: white;
 }
 
+.name-labels label {
+    font-size: 150%;
+}
+
 .camp-labels label {
     font-size: 150%;
     margin-left: 60px;
@@ -625,14 +635,26 @@ footer {
 
 #our-story h1 {
 
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 300%;
     text-align: center;
 
 }
 
 #our-story p { 
-    margin-top: 50px;
+    font-family: Raleway, sans-serif;
+    margin: 0 auto;
+    padding: 20px 30px 20px 30px; 
     font-size: 150%;
-    text-align: center;
+    text-align: left;
+    color: white;
+    
+}
+
+#paragraph-section {
+    background-color:rgb(135, 206, 235, 0.6);
+    border: 3px;
+  
+
 }
