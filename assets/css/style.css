@@ -313,43 +313,50 @@ footer {
 
 
 
-  /* Corralejo surfhouse page*/
+  /* Styling for two surfhouses pages*/
 
 
-  #house-one-description {
+  #house-description {
       margin-left: 30px;
       clear: both;
-      padding-top: 200px;
+      padding-top: 100px;
   }
 
-  #house-one-description h1 {
-    margin: 20px 30px 20px 30px;
+  #house-description h1 {
+    margin: 10px 30px 20px 30px;
+    font-family: Lobster, sans-serif;
+    font-size: 150%;
+  }
+
+  #house-description p {
+    font-family: Raleway, sans-serif;
+
   }
 
 
  
-  #house-one-description img {
+  #house-description img {
     width: 40%;
     float: left;
     margin: 20px 30px 20px 30px;
 
   }
 
-  .camp-one-info {
+  .camp-info {
     margin: 20px 300px 20px 30px;
     float: right;
     font-size: 150%;
     width:40%;
   }
 
-  .camp-one-prices {
+  .camp-prices {
     margin: 20px 300px 50px 30px;
     float: right;
     font-size: 150%;
     width:40%;
 }
 
-.camp-one-services {
+.camp-services {
     clear: left;
     float: left;
     margin: 10px 30px 20px 30px;
@@ -357,18 +364,20 @@ footer {
     width:40%;
 }
 
-.camp-one-services h2 {
+.camp-services h2 {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: Raleway, sans-serif;
 }
 
-.camp-one-services li {
+.camp-services li {
    
     margin-left: 30px;
+    font-family: Raleway, sans-serif;
    
 }
 
-.camp-one-services-2 {
+.camp-services-2 {
     
     clear: right;
     float: right;
@@ -377,48 +386,53 @@ footer {
     width:40%;
 }
 
-.camp-one-services-2 h2 {
+.camp-services-2 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: Raleway, sans-serif;
 }
 
-.camp-one-services-2 li {
+.camp-services-2 li {
    
     margin-left: 30px;
+    font-family: Raleway, sans-serif;
 }
 
-@media screen and (max-width: 1950px) {
+.map h1 {
+    padding-left: 30px;
+    font-size: 250%;
+}
+
+@media screen and (max-width: 1980px) {
 
 
-    .camp-one-info {
-        margin: 20px 300px 20px 30px;
+    .camp-info {
+        margin: 20px 30px 20px 30px;
         clear: left;
         float: left;
         font-size: 150%;
-        width:40%;
+        width:80%;
     }
 
-    .camp-one-prices {
-        margin: 20px 300px 50px 30px;
+    .camp-prices {
+        margin: 20px 30px 50px 30px;
         clear: left;
         float: left;
         font-size: 150%;
-        width:40%;
+        width:80%;
 
     }
 
-    .camp-one-services-2 {
+    .camp-services-2 {
     
         clear: left;
         float: left;
-        margin: 10px 300px 20px 30px;
+        margin: 10px 30px 20px 30px;
         font-size: 150%;
-        width:40%;
+        width:80%;
     }
 
-    #images {
-        column-count: 2;
-    }
+ 
 }
 
 
@@ -431,7 +445,6 @@ footer {
 
   #images-corralejo {
     clear: both;
-    margin-top: 500px;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
