@@ -92,7 +92,7 @@
     
 }
 
-/* surf camps intro- landing page */
+/* surf camps intro-landing page */
     
 #intro-sentence {
 
@@ -132,7 +132,7 @@
 }
 
 
-/* Corralejo house styling and animation */
+/* Corralejo house styling and animation-landing page */
 
 #left {
     margin-top: 30px;
@@ -180,7 +180,7 @@
 
 }
 
-/* Maspalomas house styling and animation */
+/* Maspalomas house styling and animation-landing page */
 
 #right {
 
@@ -286,7 +286,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1200px;
 
 }
 
