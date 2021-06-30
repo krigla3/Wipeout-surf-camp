@@ -8,7 +8,7 @@
     border: none;
 }
 
-
+/* main page background and default fonts for all pages */
 
 #main-page-background {
     background: url('../images/surfer-on-a-wave.jpg') no-repeat center center fixed; 
@@ -16,29 +16,28 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
-
-     
-  }
+}
 
 
-  #background-contact, 
-  #main-page-background, 
-  #background-gallery, 
-  #background-book {
+#background-contact, 
+#main-page-background, 
+#background-gallery, 
+#background-book {
+
     font-family: Lobster, sans-serif;
     color:black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-  
 
+}
+  
 
 /* headings and logo */
 
 
 #logo {
+
     float: left;
     font-size: 350%;
     line-height: 0.85;
@@ -53,7 +52,9 @@
 
 /* navigation gallery-book-contact */
 
+
 #main-navigation  {
+
     font-size: 250%;
     letter-spacing: 5px;
     font-family: Lobster, sans-serif;
@@ -69,6 +70,7 @@
 }
 
 #main-navigation a {
+
     text-decoration: none;
     color:#033c45;
     line-height: 0.85;
@@ -76,20 +78,24 @@
 }
 
 #main-navigation a:hover {
+
     color: rgb(233, 120, 14);
     vertical-align: bottom;
+
 } 
 
 .active > span {
+
     font-size: 80%;
     color: rgb(233, 120, 14);
     line-height: 0.85;
     
 }
 
-/* surf camps intro*/
-     
+/* surf camps intro- landing page */
+    
 #intro-sentence {
+
     font-family: Lobster, sans-serif;
     margin-top: 150px;
     font-size: 200%;
@@ -101,13 +107,10 @@
     padding-top: 101px;
     color:black;
     font-size: 140%;
+
 }    
     
-    
-
-    
-
-/* surf camps */
+/* two surf camps on landing page */
 
 
 #camps {
@@ -116,7 +119,12 @@
     
 }
 
+
+/* main container for two houses */
+
+
 #surfhouses {
+
     margin-bottom: 24px;
     display: flex;
     flex-direction: row;
@@ -124,21 +132,17 @@
 }
 
 
-
+/* Corralejo house styling and animation */
 
 #left {
     margin-top: 30px;
     height: 350px;
     float: left;
-    width: 40%;
-    
- 
-    
-  
-    
+    width: 40%;   
 }
 
 #first-house {
+
     margin-top: -280px;
     height: 100%;
     width: 100%;
@@ -149,60 +153,45 @@
     border-color: white;
     border-radius: 25px;
     opacity: 0%;
-    transition: 2s;
-    
-    
-    
+    transition: 2s;   
 }
 
 #first-house:hover {
     
-   
     opacity: 100%;
     z-index: 2;
     transform: scale(1.2);
-    
+   
 }
 
   
 .zec {
+
     padding-top: 150px;
     font-size: 300%;
-    
-   
+       
 }
 
 .zec > span {
+
     color: white;
     font-size: 250%;
     opacity: 50%;
+
 }
 
-
-
-
-
-
-    
-    
-
-
-
+/* Maspalomas house styling and animation */
 
 #right {
+
     margin-top: 30px;
     float: right;
     width: 40%;
-    height: 350px;
-    
-    
- 
-    
-  
-    
+    height: 350px;    
 }
 
 #second-house {
+
     margin-top:-280px;
     height: 100%;
     width: 100%;
@@ -213,43 +202,41 @@
     border-color: white;
     border-radius: 25px;
     opacity: 0%;
-    transition: 2s;
-    
-    
-    
+    transition: 2s;   
+
 }
 
 #second-house:hover {
     
-   
     opacity: 100%;
     z-index: 2;
     transform: scale(1.2);
     
 }
 
-
 /* footer styling */
 
-  
 footer {
+
     margin-top: auto;
     width: 100%;
-    background-color: rgba(224,232,236,255);
-  
-    
+    background-color: rgba(224,232,236,255);    
 }
 
 #footer-links {
+
     text-align: center;
 
 }
 
 #footer-links > li {
+
    display: inline;
+
 }
 
 #footer-links i {
+
     font-size: 400%;
     margin: 0.5% 10% 0.5% 10%;
     color:black;
@@ -257,42 +244,43 @@ footer {
 }
 
 #footer-links i:hover {
+
     color: rgb(233, 120, 14);
+
 }
-    
-
-  
-  /* Gallery page*/
+   
+/* Gallery page styles*/
 
 
-
-  #images {
+#images {
 
     clear: both;
-    
     line-height: 0;
     column-count: 5;
     column-gap: 0;
     
-  }
+}
 
-  #images > img {
+#images > img {
+    
     margin-top: 20px;
     width: 100%;
     border: solid 4px white;
     box-sizing: border-box;
 
-  }
+}
 
-  #background-gallery {
+#background-gallery {
+
     background-color:white;
     background-size: cover;
    
-  }
+}
+
+/* Book page styles*/
 
 
-
-  #background-book {
+#background-book {
 
     background-image: url("/assets/images/surfer-on-a-wave-2.jpg");
     background-size: cover;
@@ -300,63 +288,70 @@ footer {
     background-position: center center;
     height: 1200px;
 
-  }
+}
 
-  #background-contact {
+#background-contact {
+
     background: url('../images/uderwater.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-  }
+}
+
+/* Styling for two surfhouses pages */
 
 
+#house-description {
 
-  /* Styling for two surfhouses pages*/
-
-
-  #house-description {
       margin-left: 30px;
       clear: both;
       padding-top: 100px;
+
   }
 
-  #house-description h1 {
+#house-description h1 {
+
     margin: 10px 30px 20px 30px;
     font-family: Lobster, sans-serif;
     font-size: 150%;
-  }
 
-  #house-description p {
-    font-family: Raleway, sans-serif;
+}
 
-  }
+#house-description p {
 
+font-family: Raleway, sans-serif;
 
- 
-  #house-description img {
+}
+
+#house-description img {
+
     width: 40%;
     float: left;
     margin: 20px 30px 20px 30px;
 
-  }
+}
 
-  .camp-info {
+.camp-info {
     margin: 20px 300px 20px 30px;
     float: right;
     font-size: 150%;
     width:40%;
-  }
 
-  .camp-prices {
+}
+
+.camp-prices {
+
     margin: 20px 300px 50px 30px;
     float: right;
     font-size: 150%;
     width:40%;
+
 }
 
 .camp-services {
+
     clear: left;
     float: left;
     margin: 10px 30px 20px 30px;
@@ -365,9 +360,11 @@ footer {
 }
 
 .camp-services h2 {
+
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Raleway, sans-serif;
+
 }
 
 .camp-services li {
@@ -384,282 +381,44 @@ footer {
     margin: 10px 300px 20px 10px;
     font-size: 150%;
     width:40%;
+
 }
 
 .camp-services-2 h2 {
+
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Raleway, sans-serif;
+
 }
 
 .camp-services-2 li {
    
     margin-left: 30px;
     font-family: Raleway, sans-serif;
+
 }
 
 .map h1 {
+
+    margin-top: 100px;
     padding-left: 30px;
     font-size: 250%;
 }
 
-@media screen and (max-width: 1980px) {
+/* Form page styles */
 
 
-    .camp-info {
-        margin: 20px 30px 20px 30px;
-        clear: left;
-        float: left;
-        font-size: 150%;
-        width:80%;
-    }
+.form-section {
 
-    .camp-prices {
-        margin: 20px 30px 50px 30px;
-        clear: left;
-        float: left;
-        font-size: 150%;
-        width:80%;
-
-    }
-
-    .camp-services-2 {
-    
-        clear: left;
-        float: left;
-        margin: 10px 30px 20px 30px;
-        font-size: 150%;
-        width:80%;
-    }
-
- 
-}
-
-
-
-
-
-
-
-
-
-  #images-corralejo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-  }
-    
-  
-
-  #images-corralejo > img {
-    margin-top: 20px;
-    width: 100%;
-    border: solid 4px white;
-    box-sizing: border-box;
-
-  }
-
-  #background-corralejo-house {
-    background-color:white;
-    background-size: cover;
-    
-  }
-
-  main {
-    flex: 1;
-  }
-
- 
-
-
-  /* tablet size */
-
-  @media screen and (max-width: 1075px) {
-
-
-    #main-navigation {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-    }
-
-    #logo {
-        margin-left: 30px;   }
-
-       
-    #surfhouses {
-            flex-direction: column;
-            
-        }
-  
-    #left {
-            width: 80%;
-            margin-left: 70px;
-            
-        }
-  
-    #right {
-          width: 80%;
-          margin-left: 70px;
-          
-      }
-
-      #span-two {
-        display:block;
-
-      }
-    }
-
-  
- /* phone size */
-
-  @media screen and (max-width: 650px) {
-
-    #main-navigation {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        font-size: 120%;
-        
-    }
-
- 
-    #logo {
-        margin-left: 25px;   }
-
-       
-    #surfhouses {
-            flex-direction: column;
-            
-        }
-  
-    #left {
-            width: 50%;
-            height: 100px;
-            margin: 0 auto;
-            
-            
-        }
-  
-    #right {
-          width: 50%;
-          height: 100px;
-          margin: 0 auto;
-          
-      }
-
-    #span-one {
-        display:block
-    }
-
-    #surfhouses {
-        flex-direction: column;
-        
-    }
-
-#intro-sentence h1 {
-        margin-top: 70px;
-    }    
-    
-    #footer-links i {
-        font-size: 400%;
-        margin: 0.5% 5% 0.5% 5%;
-    }
-
-    #surfhouses {
-        margin-bottom: 10px;
-        
-      
-        justify-content: center;
-    }
-
-    #first-house {
-        margin-top:-100px;
-    }
-
-    #second-house {
-        margin-top:-100px;
-    }
-
-
-    .zec {
-        padding-top: 50px;
-        font-size: 200%;
-        text-align: center;
-       
-    }
-    
-    .zec > span {
-        color: white;
-        font-size: 100%;
-        opacity: 50%;
-    }
-    
-    #main-navigation li {
-        margin-right: 15px;
-        
-        
-
-      }
-
-    #intro-sentence h1 {
-
-        font-size: 100%;
-    }
-    }   
-
-    @media screen and (max-width: 410px) {
-
-        #logo {
-            
-            font-size: 250%;
-            line-height: 0.85;
-            margin: 0 10 0 10;
-            
-           
-        }
-
-
-        #main-navigation {
-            clear: left;
-            float: left;
-            margin-left: 20px;
-            font-size: 100%;
-            flex-direction: row;
-            
-            
-        }
-
-        .form-section {
-            margin-top: 150px;
-            clear: left;
-            height: 500px;
-        }
-
-        .signup-form > h2 {
-            margin-top: 10px;
-        }
-
-
-        .signup-form {
-            
-            margin: 0 10px 0 10px;
-    }
-}
-
-
-
-   /* Form */
-
-
-   .form-section {
     margin-top: 200px;
     clear: left;
     height: 500px;
+
 }
 
    .signup-form {
+
     margin: 0 auto;
     color:white;
     max-width: 400px;
@@ -669,15 +428,16 @@ footer {
 }
 
 .signup-form > h2 {
+
     font-size: 200%;
     color:white;
     margin-bottom: 20px;
     text-align: center;
     
-    
 }
 
 .text-input {
+
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -689,11 +449,13 @@ footer {
 }
 
 .text-input:hover {
+
     border-color:rgb(233, 120, 14);
     
 }
 
 .join-button  {
+
     margin-top: 20px;
     margin-left: 140px;
     border-radius: 25px;
@@ -707,22 +469,27 @@ footer {
 }
 
 .join-button:hover {
+
     background-color:rgb(233, 120, 14);
     color: white;
+
 }
 
 .name-labels label {
+
     font-size: 150%;
+
 }
 
 .camp-labels label {
+
     font-size: 150%;
     margin-left: 60px;
 
 }
 
 
-/* contact page */
+/* Contact page styles */
 
 #our-story h1 {
 
@@ -734,6 +501,7 @@ footer {
 }
 
 #our-story p { 
+
     font-family: Raleway, sans-serif;
     margin: 0 auto;
     padding: 20px 30px 20px 30px; 
@@ -744,6 +512,284 @@ footer {
 }
 
 #paragraph-section {
+
     background-color:rgb(135, 206, 235, 0.6);
     border: 3px;
+
 }
+
+
+/* Corralejo house images and background styles */
+
+#images-corralejo {
+
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+
+}
+    
+#images-corralejo > img {
+
+    margin-top: 20px;
+    width: 100%;
+    border: solid 4px white;
+    box-sizing: border-box;
+
+}
+
+#background-corralejo-house {
+
+    background-color:white;
+    background-size: cover;
+    
+}
+
+main {
+
+    flex: 1;
+
+}
+
+
+/* 1980px screen responsivnes style */
+
+@media screen and (max-width: 1980px) {
+
+.camp-info {
+
+        margin: 20px 30px 20px 30px;
+        clear: left;
+        float: left;
+        font-size: 150%;
+        width:80%;
+
+}
+
+.camp-prices {
+
+        margin: 20px 30px 50px 30px;
+        clear: left;
+        float: left;
+        font-size: 150%;
+        width:80%;
+
+}
+
+.camp-services-2 {
+    
+        clear: left;
+        float: left;
+        margin: 10px 30px 20px 30px;
+        font-size: 150%;
+        width:80%;
+    
+    }
+}
+
+/* Tablet size 1075px screen responsivnes style */ 
+
+
+@media screen and (max-width: 1075px) {
+
+    #main-navigation {
+
+        clear: left;
+        float: left;
+        margin-left: 30px;
+
+    }
+
+    #logo {
+
+        margin-left: 30px;  
+
+    }
+
+       
+    #surfhouses {
+
+        flex-direction: column;
+        
+    }
+  
+    #left {
+
+        width: 80%;
+        margin-left: 70px;
+            
+    }
+  
+    #right {
+
+        width: 80%;
+        margin-left: 70px;
+          
+    }
+
+    #span-two {
+
+       display:block;
+
+    }
+}
+
+/* phone size 650px screen responsivnes style*/
+
+
+@media screen and (max-width: 650px) {
+
+    #main-navigation {
+
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        font-size: 120%;
+        
+    }
+
+    #logo {
+
+        margin-left: 25px;   
+    
+    }
+  
+    #surfhouses {
+
+        flex-direction: column;
+            
+    }
+  
+    #left {
+
+        width: 50%;
+        height: 100px;
+        margin: 0 auto;
+        
+    }
+  
+    #right {
+
+          width: 50%;
+          height: 100px;
+          margin: 0 auto;
+
+    }
+
+    #span-one {
+
+        display:block
+
+    }
+
+    #surfhouses {
+
+        flex-direction: column;
+        
+    }
+
+    #intro-sentence h1 {
+
+        margin-top: 70px;
+
+    }    
+    
+    #footer-links i {
+
+        font-size: 400%;
+        margin: 0.5% 5% 0.5% 5%;
+
+    }
+
+    #surfhouses {
+
+        margin-bottom: 10px;
+        justify-content: center;
+
+    }
+
+    #first-house {
+        
+        margin-top:-100px;
+
+    }
+
+    #second-house {
+
+        margin-top:-100px;
+
+    }
+
+
+    .zec {
+
+        padding-top: 50px;
+        font-size: 200%;
+        text-align: center;
+       
+    }
+    
+    .zec > span {
+
+        color: white;
+        font-size: 100%;
+        opacity: 50%;
+
+    }
+    
+    #main-navigation li {
+
+        margin-right: 15px;
+        
+    }
+
+    #intro-sentence h1 {
+
+        font-size: 100%;
+    }
+}   
+
+/* phone size 410px screen responsivnes style*/
+
+@media screen and (max-width: 410px) {
+
+    #logo {
+            
+        font-size: 250%;
+        line-height: 0.85;
+        margin: 0 10 0 10;
+                 
+    }
+
+
+    #main-navigation {
+
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        font-size: 100%;
+        flex-direction: row;
+            
+    }
+
+    .form-section {
+
+        margin-top: 150px;
+        clear: left;
+        height: 500px;
+    }
+
+    .signup-form > h2 {
+
+        margin-top: 10px;
+    }
+
+
+    .signup-form {
+            
+        margin: 0 10px 0 10px;
+
+    }
+}
+
