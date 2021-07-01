@@ -32,10 +32,10 @@ The site is a simple structure consisting of six individual pages with the follo
     * The background image used is that of a surfer in action – a taster of what the user may experience with the company!
 
 * Surf House One   
-    * Corralejo. The page contains information on the location, gallery images of the house itself and a Google map showing precise location. Details on accommodation, surfing lessons and prices are also included.
+    * Corralejo. The page contains information on the location, gallery images of the house itself and a Google map showing precise location. Details on accommodation, surfing lessons and prices are also included. To view the next house, click on the main logo button (also the 'Home' button) which will return the user to the landing page.
 
 * Surf House Two   
-    * Maspalomas. The page contains information on the location, gallery images of the house itself and a Google map showing precise location. Details on accommodation, surfing lessons and prices are also included.
+    * Maspalomas. The page contains information on the location, gallery images of the house itself and a Google map showing precise location. Details on accommodation, surfing lessons and prices are also included. To return to the landing page, the user clicks the main logo button (also the 'Home' button).
 
 * Gallery
     * The gallery is a collection of images taken from camps held previously. The company offers a photography service, and with the permission of guests uses images from this in the gallery.
@@ -204,13 +204,15 @@ Wipeout Surf Camp was deployed to GitHub Pages by following the below steps:
 
 * [FlexBox](https://www.w3schools.com/css/css3_flexbox.asp) tutorial has been used to address the site responsiveness on smaller devices.
 * [Footer-responsivenes](https://codepen.io/Nazarja/pen/bGwvWNz) tutorial was used to implement the footer structure.
+* Structure of readme file is inspired by the [Sussex Walks](https://github.com/OlgaJ1989/sussex-walks) repository and the Love Running Code Institute readme.
 
 
 ## Acknowledgements
 * Special thanks to my mentor Daisy McG for her guidance and support throughout the project.
 * A big thank you for providing moral support through the project to my girfriend Roberta Carroll and my cousin Daniel Matasic. 
+
 ## Contact
-* For any queries on the creation of this project, please contact David Maric…
+* For any queries on the creation of this project, please contact David Maric. email: david.maric4@gmail.com
 
 
 
