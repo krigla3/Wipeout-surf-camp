@@ -220,7 +220,7 @@ footer {
 
     margin-top: auto;
     width: 100%;
-    background-color: rgba(224,232,236,255);    
+    background-color: rgba(224,232,236);    
 }
 
 #footer-links {
@@ -277,7 +277,7 @@ footer {
    
 }
 
-/* Book page styles*/
+/* Book page background */
 
 
 #background-book {
@@ -288,6 +288,9 @@ footer {
     background-position: center center;
 
 }
+
+/* Contact page background */
+
 
 #background-contact {
 
@@ -757,7 +760,7 @@ main {
             
         font-size: 250%;
         line-height: 0.85;
-        margin: 0 10 0 10;
+        margin: 0px 10px 0px 10px;
                  
     }
 
