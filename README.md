@@ -15,7 +15,7 @@ The site is a simple structure consisting of six individual pages with the follo
 
     * When you navigate to the other pages, then a yellow sun will indicate your location.
 
-    ![Sun-Icon](https://github.com/krigla3/Wipeout-surf-camp/blob/master/docs/Navigation%20sun%20symbol.JPG?raw=true)
+    ![Sun-Icon](https://github.com/krigla3/Wipeout-surf-camp/blob/master/docs/navigation-sun-symbol.jpg?raw=true)
 
     * This functionality is the same across all devices.
 
@@ -73,7 +73,7 @@ The site is a simple structure consisting of six individual pages with the follo
 
 * Typography
     * Headings: Lobster, sans serif as backup.
-    * Body: Raleway,  sans serif as backup
+    * Body: Raleway, sans serif as backup
 
 * Responsiveness
 
@@ -183,7 +183,7 @@ Wipeout Surf Camp was deployed to GitHub Pages by following the below steps:
 ## Issues/Resolutions?
 * For two surfhouse pages once the website is opened with a smaller resolution device like a phone, a right margin is appearing.
   This affects the page in a way that a user would have to scroll down in order to see the content. In the future I would have this updated to improve the aesthetic of the page on mobile device. 
-  
+
 * HTML and CSS validator showed warnings for h1 titles. This did not affect the overall performance of the site. As I was close to project deadline I was unable to edit these titles into h2 headings in order to fit better wit the semantic markup.
   
 
