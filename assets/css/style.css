@@ -97,14 +97,14 @@
 #intro-sentence {
 
     font-family: Lobster, sans-serif;
-    margin-top: 150px;
+    margin-top: 200px;
     font-size: 200%;
     color:#033c45;
     
 }    
 
 #intro-sentence h2 {
-    padding-top: 101px;
+    padding-top: 150px;
     color:black;
     font-size: 140%;
 
@@ -125,7 +125,7 @@
 
 #surfhouses {
 
-    margin-bottom: 24px;
+ 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -143,7 +143,7 @@
 
 #first-house {
 
-    margin-top: -280px;
+    margin-top: -250px;
     height: 100%;
     width: 100%;
     background: url("../images/surfhouse-one.jpg");
@@ -165,14 +165,14 @@
 }
 
   
-.zec {
+.bed-icon {
 
     padding-top: 150px;
     font-size: 300%;
        
 }
 
-.zec > span {
+.bed-icon > span {
 
     color: white;
     font-size: 250%;
@@ -192,7 +192,7 @@
 
 #second-house {
 
-    margin-top:-280px;
+    margin-top:-250px;
     height: 100%;
     width: 100%;
     background: url("../images/surfhouse-two.jpg");
@@ -549,7 +549,7 @@ font-family: Raleway, sans-serif;
 }
 
 main {
-
+    margin-bottom: 260px;
     flex: 1;
 
 }
@@ -662,6 +662,11 @@ main {
         flex-direction: column;
             
     }
+
+    #second-house {
+
+        margin-top:-250px;
+    }    
   
     #left {
 
@@ -686,8 +691,9 @@ main {
     }
 
     #surfhouses {
-
+        margin-top: 100px;
         flex-direction: column;
+        
         
     }
 
@@ -724,7 +730,7 @@ main {
     }
 
 
-    .zec {
+    .bed-icon {
 
         padding-top: 50px;
         font-size: 200%;
@@ -732,7 +738,7 @@ main {
        
     }
     
-    .zec > span {
+    .bed-icon > span {
 
         color: white;
         font-size: 100%;
