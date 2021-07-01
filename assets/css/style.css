@@ -12,9 +12,6 @@
 
 #main-page-background {
     background: url('../images/surfer-on-a-wave.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -180,6 +177,10 @@
 
 }
 
+iframe {
+    width: 100%;
+}
+
 /* Maspalomas house styling and animation-landing page */
 
 #right {
@@ -295,9 +296,6 @@ footer {
 #background-contact {
 
     background: url('../images/uderwater.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
 }

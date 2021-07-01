@@ -15,7 +15,7 @@ The site is a simple structure consisting of six individual pages with the follo
 
     * When you navigate to the other pages, then a yellow sun will indicate your location.
 
-    input sun symbol photo here.
+    ![Sun-Icon](https://github.com/krigla3/Wipeout-surf-camp/blob/master/docs/Navigation%20sun%20symbol.JPG?raw=true)
 
     * This functionality is the same across all devices.
 
@@ -72,12 +72,13 @@ The site is a simple structure consisting of six individual pages with the follo
     ![Logo-yellow](https://github.com/krigla3/Wipeout-surf-camp/blob/master/docs/logo-yellow.jpg?raw=true)
 
 * Typography
-    * Headings: Lobster, san serif as backup.
-    * Body: Raleway
+    * Headings: Lobster, sans serif as backup.
+    * Body: Raleway,  sans serif as backup
 
 * Responsiveness
 
-    * Responsiveness is good across screen size and devices. 
+    * Responsiveness is good across all screen size and devices. 
+      This was achieeved by adding multiple media queries in CSS that take effect on the following resolutions: 1980px, 1075px, 650px, 410px.
 
 * Features left to implement
 
@@ -96,11 +97,25 @@ The site is a simple structure consisting of six individual pages with the follo
 
 ## Deployment
 
+Wipeout Surf Camp was deployed to GitHub Pages by following the below steps:
+
+1. Navigate to the ["Wipeout-surf-camp" repository](https://github.com/krigla3/Wipeout-surf-camp) on GitHub.
+1. Navigate to the 'Settings' tab.
+1. Navigate to 'Pages' from the menu on the left. 
+1. Select 'master' branch in the source drop-down.
+1. Click 'Save'.
+1. A link to the live deployed page is generated and can be found here: https://krigla3.github.io/Wipeout-surf-camp/
+
+
 
 
 ## Project Status
 
-* Project is: in progress / complete / no longer being worked on. If you are no longer working on it, provide reasons why.
+* I am still working on this project. There are multiple solutions I would like to implement in the future. 
+  With more time I plan to make the overall responsiveness of the site even better. 
+  Additionaly I would like to work on the aesthetic through the whole website. 
+  Potentially audio would be added to the page and also embeded youtube surf videos.
+
 
 
 ## Testing
@@ -114,6 +129,16 @@ The site is a simple structure consisting of six individual pages with the follo
     * Result:
         1. All elements are responsive and display correctly in two of the tested browsers and in each of the window sizes. (Google Chrome and Microsoft Edge) 
         1. Site is unresponsive when tested with Internet explorer.
+
+* Check the responsiveness of the website on different mobile devices. Samsung S20, Samsung S21, Huawei P9 lite.
+
+    * Test: 
+        1. Open the website with each of the mentioned devices.
+        1. Click on all navigation items (Landing Page, Gallery, Contact, Book, Each surf house) one by one to make sure the attached links are correct and that they lead the user to the correct parts of the website.
+        1. Click on all social media links (Facebook, Twitter, Instagram) one by one to make sure that the links are in working order and that they all open in a separate tab.
+    * Result:
+        1. All links working and directing user to the correct pages.
+        1. All links are working and all of them open in separate / new tabs.
 
 * Check that the links in the navigation bar navigate to correct pages.
 
@@ -147,21 +172,43 @@ The site is a simple structure consisting of six individual pages with the follo
     * Result:    
         1. The form cannot be submitted until each of the input fields has been filled in correctly so the validation is working.
 
+* Check validation of HTML and CSS through the whole website with HTML validator and and Jigsaw validator.
+
+    * Test: 
+        1. Copy and paste the HTML code in the validator
+        1. Copy and paste the CSS code in the validator
+     * Result:    
+        1. No major errors shown through the interface.
+
 ## Issues/Resolutions?
-* Media query
+* For two surfhouse pages once the website is opened with a smaller resolution device like a phone, a right margin is appearing.
+  This affects the page in a way that a user would have to scroll down in order to see the content. In the future I would have this updated to improve the aesthetic of the page on mobile device. 
+  
+* HTML and CSS validator showed warnings for h1 titles. This did not affect the overall performance of the site. As I was close to project deadline I was unable to edit these titles into h2 headings in order to fit better wit the semantic markup.
+  
 
 ## Sources
+
+* [Google Fonts](https://fonts.google.com/) have been used to import Lobster and Raleway fonts. 
+* [Colorpicker Tool](https://imagecolorpicker.com/) has been used for selecting the color for the header logo and main navigation links 
+* [Font Awesome](https://fontawesome.com/) used to implement the sun icon from main navigation, peace sign from book page and bed icon from the main page.
+* [Pexels](https://www.pexels.com/) used to import most of the photos on the page.
+* [Main Page Quote](https://www.surfertoday.com/surfing/the-best-surfing-quotes-of-all-time) 
+* [House bbq photo](https://www.countryliving.com/gardening/garden-ideas/g1435/outdoor-kitchens/)
+* [Bunkbed Blue Room Photo](https://www.pinterest.com/pin/729372102140587007/)
+* [Bedroom 3 Photo](https://pixabay.com/photos/bed-bedroom-closet-furniture-lamp-1839184/)
 * Code Institute ‘Love Running’ Training Module
-  Google Images
+  
 
 ## Credits
-* Content/Media
+
+* [FlexBox](https://www.w3schools.com/css/css3_flexbox.asp) tutorial has been used to address the site responsiveness on smaller devices.
+* [Footer-responsivenes](https://codepen.io/Nazarja/pen/bGwvWNz) tutorial was used to implement the footer structure.
+
 
 ## Acknowledgements
 * Special thanks to my mentor Daisy McG for her guidance and support throughout the project.
-    * This project was inspired by the...
-    * This project was based on this tutorial [link Code Institute ‘Love Running’ training module].
-
+* A big thank you for providing moral support through the project to my girfriend Roberta Carroll and my cousin Daniel Matasic. 
 ## Contact
 * For any queries on the creation of this project, please contact David Maric…
 
