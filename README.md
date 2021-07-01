@@ -184,7 +184,7 @@ Wipeout Surf Camp was deployed to GitHub Pages by following the below steps:
 * For two surfhouse pages once the website is opened with a smaller resolution device like a phone, a right margin is appearing.
   This affects the page in a way that a user would have to scroll down in order to see the content. In the future I would have this updated to improve the aesthetic of the page on mobile device. 
 
-* HTML and CSS validator showed warnings for h1 titles. This did not affect the overall performance of the site. As I was close to project deadline I was unable to edit these titles into h2 headings in order to fit better wit the semantic markup.
+* HTML validator showed warnings for h1 titles and article titles. This did not affect the overall performance of the site. As I was close to project deadline I was unable to   edit these titles into h2 headings in order to fit better wit the semantic markup.
   
 
 ## Sources
